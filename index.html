@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type=text/css href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrap">
+            <div class="fl">
+                <a href="" class="a1">高铁客户服务中心</a>
+                <a href="" class="a2">客户服务</a>
+            </div>
+            <div class="fr">
+                <a href="" class="a3">意见反馈</a>
+                <a href="" class="a4">syjjj@com</a>
+                <span>您好，请</span>
+                <a href="" class="a5">登录</a>
+                <a href="" class="a6">注册</a>
+                <div class="box">
+                    <span><a href="" id="mylis" class="a7">我的syjjj ▼</a></span>
+                    <div class="header-lis" id="lis">
+                        <ul>
+                            <li>未完成订单</li>
+                            <li class="border">已完成订单（改/退）</li>
+                            <li class="border">我的保险</li>
+                            <li>查看个人信息</li>
+                            <li class="border">账户安全</li>
+                            <li class="border">常用联系人</li>
+                            <li>重点旅客预约</li>
+                            <li class="border">遗失物品查找</li>
+                            <li class="border">服务查询</li>
+                            <li>投诉</li>
+                            <li>建议</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="" class="a8">手机版</a>
+            </div>
+            
+        </div>
+        
+    </header>
+    <div class="body-wrap">
+        <p>您现在的位置：<span>客运首页 &gt; 注册</span></p>
+        <form>
+            <p>账户信息</p>
+            <p>
+                <span>* </span><label>用户名</label>：
+                <input type="text" id="userpassname" class="input" placeholder="用户名设置成功后不可修改">
+                <span class="tip">6-30位字母、数字或“_”,字母开头</span>
+            </p>
+            <p>
+                <span>* </span><label>登录密码</label>：
+                <input type="password" id="userpwd" class="input"  placeholder="6-20位字母、数字或符号">
+                <span id="red"></span><span id="orange"></span><span id="green"></span>
+                <span class="tip tip-pos"></span>
+            </p>
+            <p>
+                <span>* </span><label>确认密码</label>：
+                <input type="password" id="reuserpwd" class="input"  placeholder="再次输入您的登录密码">
+                <span class="tip"></span>
+            </p>
+            <p>
+                <span>* </span><label>姓名</label>：
+                <input type="text" id="username" class="input"  placeholder="请输入姓名">
+                <span class="tip tip-line" id="tip-line">姓名填写规则</span>
+            </p>
+            <div class="rule" id="rule">
+                    <p>1.确认姓名中生僻字无法输入时，可用生僻字拼音或同音字替代。</p>
+                    <p>2.输入姓名保存后，遇有系统无法正确显示的汉字，可用该汉子的拼音或同音字重新修改后保存。</p>
+                    <p>3.姓名中有繁体字无法输入时，可用简体替代。</p>
+                    <p>4.姓名较长，汉字与英文字符合计超过30个（1个汉子算2个字符）的，需按姓名中第一个汉字或英文字符开始按顺序连续输入30个字符（空格字符不输入），其中英文字符输入时不去别大小写</p>
+            </div>
+            <p>
+                <span>* </span><label>证件类型</label>：
+                <select id="idtype">
+                        <option>二代身份证</option>
+                        <option>港澳通行证</option>
+                        <option>台湾通行证</option>
+                        <option>护照</option>
+                </select>
+                <span class="tip"></span>
+            </p>
+            <p>
+                <span>* </span><label>证件号码</label>：
+                <input type="text" id="idnum" class="input"  placeholder="请输入您的证件号码">
+                <span class="tip"></span>
+            </p>
+            <p>
+                <span></span><label>邮箱</label>：
+                <input type="text" id="email" class="input" placeholder="请正确填写邮箱地址">
+                <span class="tip"></span>
+            </p>
+            <p>
+                <span>* </span><label>手机号码</label>：
+                <input type="text" id="tel" class="input"  placeholder="请输入您的手机号码">
+                <span class="tip">请正确填写手机号码，稍后向该号码发送短信验证码</span>
+            </p>
+            <p>
+                <span>* </span><label>旅客类型</label>：
+                <select id="usertype">
+                        <option>成人</option>
+                        <option>儿童</option>
+                        <option>学生</option>
+                        <option>残疾军人</option>
+                        <option>伤残人民警察</option>
+                </select>
+                <span class="tip"></span>
+            </p>
+            <p><input type="checkbox" id="checkbox">
+                我已经阅读并同意遵守<a>《中国铁路客户服务中心网站服务条款》</a>
+            </p>
+            <p><a href=""></a><button class="btn" id="btn">下一步</button></a></p>
+        </form>
+    </div>
+    <footer>
+        <p>关于我们|网站声明</p>
+        <p>Copyright &copy; 2019 syjjj.com All Rights Reserved | 京ICP备 13046642号-2</p>
+    </footer>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>

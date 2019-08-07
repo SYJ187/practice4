@@ -1,0 +1,221 @@
+/* 通用样式 */
+*{padding: 0;margin: 0;font-family: "微软雅黑";}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+body{
+    overflow: hidden;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 100px;
+    background: #efefef;
+    border-bottom: 2px solid rgb(36,135,201);
+    position: relative;
+}
+.header-wrap{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header-wrap a{
+    display: inline-block;
+}
+.header-wrap a:hover{
+    color: rgba(0, 0, 0,.5);
+}
+.header-wrap .fl{
+    float: left;
+}
+.header-wrap .fr{
+    float: right;
+    margin-top: 25px;
+}
+.header-wrap .fl .a1{
+    font-size: 20px;
+    line-height: 100px;
+    background: url(../img/logo.png) no-repeat left center;
+    background-size: 90px 90px;
+    padding-left: 110px;
+}
+.header-wrap .fl .a2{
+    border-left: 2px solid black;
+    color: #666;
+    padding-left: 10px;
+}
+
+.header-wrap .fr .a4{
+    color: rgb(251, 116, 3);
+    padding: 0 22px 0 12px;
+
+}
+.header-wrap .fr .a5{
+    color: rgb(251, 116, 3);
+    border-right: 1px solid black;
+    padding-right: 12px;
+    margin-right: 12px;
+}
+
+.header-wrap .fr .box{
+    display: inline-block;
+    margin-right: 47px;
+}
+.header-wrap .fr .a7{
+    margin-left: 21px;
+}
+.header-wrap .fr .a8{
+    display: inline-block;
+    margin-right: 44px;
+    line-height: 50px;
+    background: url(../img/未标题-1.png) no-repeat left center;
+    padding-left: 20px;
+    background-size: 14px 20px;
+}
+.header-lis{
+    width: 150px;
+    height: 300px;
+    border: 1px solid rgb(251, 116, 3);
+    position: absolute;
+    background: white;
+    color: #666;
+    font-size: 14px;
+    /* padding: 10px 0 00  10px; */
+    display: none;
+    z-index: 2;
+}
+.header-lis li{
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.border{
+    border-bottom: 1px dotted #666;
+}
+/* 主体 */
+.body-wrap{
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.body-wrap>p span{
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+.body-wrap form{
+    width:1200px;
+    height: 480px;
+    border:1px solid rgb(251, 116, 3);
+    border-radius: 5px;
+    position: relative;
+}
+.body-wrap form>p:first-child{
+    border:0;
+    background:rgb(251, 116, 3);
+    color: white;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 20px;
+}
+.body-wrap form>p:nth-child(2){
+    margin-top: 20px;
+}
+#red,#orange,#green{
+    height: 8px;
+    width: 42px;
+    background: #ddd;
+    display: inline-block;
+    margin-right: 5px;
+}
+.body-wrap form label{
+    width: 66px;
+    text-align-last: justify;
+    display: inline-block;
+    margin:5px 0px;
+}
+.body-wrap form select{
+    width: 214px;
+}
+.body-wrap form .input{
+    width: 210px;
+}
+
+.body-wrap form p>span:first-child{
+    margin-left: 300px;
+    color:rgb(251, 116, 3);
+    display: inline-block;
+    width: 15px;
+}
+
+.body-wrap form>p:nth-last-child(2){
+    margin-left: 400px;
+    height: 40px;
+    line-height: 40px;
+    
+}
+.body-wrap form>p:nth-last-child(2) a{
+    color: #576ee1;
+}
+.body-wrap form p .tip{
+    color: rgb(251, 116, 3);
+}
+.body-wrap form p .tip-line{
+    text-decoration: underline;
+}
+.body-wrap form .rule{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top:180px;
+    right: 64px;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #576ee1;
+    padding: 10px;
+    background: white;
+    display: none;
+}
+.body-wrap form .rule p{
+    line-height: 24px;
+}
+.body-wrap .btn{
+    width:230px;
+    height: 38px;
+    background: rgb(251, 116, 3);
+    color:white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.body-wrap .btn:hover{
+    background: rgb(247, 170, 107);
+}
+/* 页尾部分 */
+footer{
+    width: 100%;
+    height: 80px;
+    background: #dcdcdc;
+    margin-top: 50px;
+    text-align: center;
+    border-top: 2px solid rgb(36,135,201);
+    padding-top: 10px;
+}
+footer p{
+    height: 30px;
+    line-height: 30px;
+    color: #a19999;
+}
+
+/* 特殊提示位置 */
+.tip-pos{
+    display: block;
+    margin-left: 400px;
+}
